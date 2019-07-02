@@ -1,7 +1,9 @@
 {% extends "chat_server/chat_server_template.html" %}
 
 {% block content %}
-
+    {% if errMsg%}
+        <p>MSG: {{ errMsg }}</p>
+    {% endif %}
     <input type="text" id="chat-input-room-name" width="30%"/><br>
     <input type="text" id="chat-input-user-name" width="30%"/><br>
     <input type="submit" id="chat-input-submit" value="Let's chat now!"/>
@@ -21,8 +23,8 @@
             var roomName = document.querySelector("#chat-input-room-name").value;
             var userName = document.querySelector("#chat-input-user-name").value;
 
-           // window.location.pathname = '/chatNow/'+ roomName + '/' + userName + '/';
-           window.location.pathname = '/chatNow/'+ roomName + '/';
+            window.location.pathname = '/chatNow/'+ roomName + '/' + userName + '/';
+
         };
     </script>
 

@@ -9,18 +9,21 @@
     <textarea id="chat-log" cols="100" rows="20"></textarea><br/>
     <input id="chat-message-input" type="text" size="100"/><br/>
     <input id="chat-message-submit" type="button" value="Send"/>
+    <input id="chat-message-disconnect" type="button" value="Disconnect"/>
 </body>
 <script>
     var roomName = {{ room_name_json }};
-
+    var userName = {{ user_name_json }};
+    document.querySelector('#chat-message-submit').value = 'Send by:' + userName;
     var chatSocket = new WebSocket(
         'ws://' + window.location.host +
-        '/ws/chat/' + roomName + '/');
+        '/ws/chat/' + roomName + '/' + userName + '/');
 
     chatSocket.onmessage = function(e) {
         var data = JSON.parse(e.data);
-        var message = data['message'];
-        document.querySelector('#chat-log').value += (message + '\n');
+        var message = data['message']['message'];
+        var sender = data['message']['user']
+        document.querySelector('#chat-log').value += sender + ':' +(message + '\n');
     };
 
     chatSocket.onclose = function(e) {
@@ -42,6 +45,21 @@
         }));
 
         messageInputDom.value = '';
+    };
+
+    document.querySelector('#chat-message-disconnect').onclick = function(e) {
+
+        //window.location.pathname = '/chatNow/'+ 'room_disconnect' + '/' + userName + '/';
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", '{% url 'room_disconnect' %}', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.setRequestHeader("X-CSRFToken", '{{ csrf_token }}');
+        xhr.send(JSON.stringify({
+            user_name: userName,
+            room_name: roomName
+        }));
+
+        fetch('{% url 'room_disconnect' %}').then((resp) => {window.location.pathname = '/chatNow/';});
     };
 </script>
 </html>
