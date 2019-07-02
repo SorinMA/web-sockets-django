@@ -1,6 +1,28 @@
 {% extends "chat_server/chat_server_template.html" %}
+
 {% block content %}
 
-<p> HI!</p>
+    <input type="text" id="chat-input-room-name" width="30%"/><br>
+    <input type="text" id="chat-input-user-name" width="30%"/><br>
+    <input type="submit" id="chat-input-submit" value="Let's chat now!"/>
+
+
+    <script>
+        document.querySelector("#chat-input-room-name").focus();
+        document.querySelector("#chat-input-user-name").focus();
+
+        document.querySelector("#chat-input-user-name").onkeyup = function(e) {
+            if(e.keyCode == 13) { // carry. return
+                document.querySelector("#chat-input-submit").click();
+            }
+        };
+
+        document.querySelector("#chat-input-submit").onclick = function(e) {
+            var roomName = document.querySelector("#chat-input-room-name").value;
+            var userName = document.querySelector("#chat-input-user-name").value;
+
+            window.location.pathname = '/chatNow/'+ roomName + '/' + userName + '/';
+        };
+    </script>
 
 {% endblock %}
