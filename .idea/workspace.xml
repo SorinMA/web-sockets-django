@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05154ad3-39a3-4319-bd60-8cd7f46b2647" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat_server/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_server/consumers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat_server/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_server/routing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_server/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_server/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat_server/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/chat_server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chat_server/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/chat_server/room_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chat_server/room_page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/chat_server/chat_server_template.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/templates/chat_server/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -59,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testSockets/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="315">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat_server/routing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="105">
+              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
               <folding>
                 <element signature="e#18#50#0" expanded="true" />
               </folding>
@@ -83,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat_server/consumers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="493">
+              <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
               <folding>
                 <element signature="e#20#81#0" expanded="true" />
               </folding>
@@ -95,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/chat_server/room_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="61" column="101" selection-start-line="61" selection-start-column="101" selection-end-line="61" selection-end-column="101" />
+            <state relative-caret-position="283">
+              <caret line="88" column="91" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -104,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat_server/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
+            <state relative-caret-position="465">
               <caret line="34" column="19" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="e#248#283#0" expanded="true" />
@@ -116,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat_server/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="135">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#16#48#0" expanded="true" />
               </folding>
@@ -130,6 +128,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>c</find>
+      <find>privat-chat-log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,20 +145,20 @@
         <option value="$PROJECT_DIR$/chat_server/customers.py" />
         <option value="$PROJECT_DIR$/testSockets/routing.py" />
         <option value="$PROJECT_DIR$/testSockets/settings.py" />
-        <option value="$PROJECT_DIR$/chat_server/routing.py" />
-        <option value="$PROJECT_DIR$/chat_server/consumers.py" />
         <option value="$PROJECT_DIR$/chat_server/urls.py" />
         <option value="$PROJECT_DIR$/templates/chat_server/index.html" />
         <option value="$PROJECT_DIR$/chat_server/views.py" />
+        <option value="$PROJECT_DIR$/chat_server/routing.py" />
+        <option value="$PROJECT_DIR$/chat_server/consumers.py" />
         <option value="$PROJECT_DIR$/templates/chat_server/room_page.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="992" />
-    <option name="y" value="24" />
-    <option name="width" value="928" />
-    <option name="height" value="1056" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="895" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +199,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +238,7 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.120633185" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.33027524" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32212028" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32948583" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -273,16 +272,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_server/ulrs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_server/ulrs.py" />
     <entry file="file://$PROJECT_DIR$/static/CSS/chat_server.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -290,23 +280,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_server/consumer.py">
+    <entry file="file://$PROJECT_DIR$/chat_server/consumer.py" />
+    <entry file="file://$PROJECT_DIR$/chat_server/customers.py" />
+    <entry file="file://$PROJECT_DIR$/templates/chat_server/chat_server_template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSockets/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#635#667#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_server/customers.py">
+    <entry file="file://$PROJECT_DIR$/chat_server/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="11" lean-forward="true" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="465">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
           <folding>
-            <element signature="e#20#76#0" expanded="true" />
+            <element signature="e#248#283#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_server/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#16#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat_server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSockets/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="47" selection-start-line="47" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -320,27 +343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testSockets/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="47" selection-start-line="47" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testSockets/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat_server/routing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding>
             <element signature="e#18#50#0" expanded="true" />
           </folding>
@@ -349,52 +355,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat_server/consumers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
           <folding>
             <element signature="e#20#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_server/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#16#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat_server/chat_server_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat_server/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat_server/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="e#248#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/chat_server/room_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="61" column="101" selection-start-line="61" selection-start-column="101" selection-end-line="61" selection-end-column="101" />
+        <state relative-caret-position="283">
+          <caret line="88" column="91" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
         </state>
       </provider>
     </entry>
